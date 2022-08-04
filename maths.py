@@ -9,9 +9,15 @@ class Utilities:
     def mul(self):
         result = self.a * self.b
         return result
+    def sub(self):
+        result = self.a - self.b
+        return result
 objUtilites = Utilities(10,20)
 final_result = objUtilites.add()
 print(final_result)
 final_mul = objUtilites.mul()
 print(final_mul)
+final_sub = objUtilites.sub()
+print(final_sub)
+
 
